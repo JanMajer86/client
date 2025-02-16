@@ -49,8 +49,7 @@ const DashboardLayout = () => {
 	);
 };
 
-export const useDashboardContext = () => {
-	return useContext(DashboardContext);
-};
+// eslint-disable-next-line react-refresh/only-export-components
+export const useDashboardContext = () => useContext(DashboardContext);
 
 export default DashboardLayout;
